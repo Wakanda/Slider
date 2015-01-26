@@ -1,0 +1,30 @@
+{
+    "name": "Slider",
+    "type": "widget",
+    "studioName": "Slider",
+    "category": "Form Controls",
+    "iconPath": "/icons/widget.png",
+    "author": "4D SAS",
+    "contributors": [
+    	"Vincent Thibault",
+        "Stéphane Puybareau",
+        "Jonathan Argentiero",
+        "Sébastien Lombard"
+    ],
+    "version": "1.0.0",
+    "copyright": "(c) 2014 4D SAS",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Wakanda/Slider.git"
+    },
+    "keywords": ["wakanda", "widget", "slider"],
+    "engines": {"wakanda": ">= 11"},
+    "license": "MIT",
+    "externalWidgets": [],
+    "loadDependencies": [
+        {"package": "Button"},
+        {"file": "widget.js"},
+        {"file": "css/widget.css"},
+        {"file": "designer.js", "studioOnly": true}
+    ]
+}

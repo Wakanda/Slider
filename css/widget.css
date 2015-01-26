@@ -1,0 +1,56 @@
+.waf-slider {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.waf-slider[data-type] {
+  border:none !important;
+}
+
+.waf-slider .progress {
+  position: relative;
+  -webkit-animation:none !important;
+  -moz-animation:none !important;
+  -ms-animation:none !important;
+  -o-animation:none !important;
+  animation: none !important;
+  height:100% !important;
+  overflow: visible !important;
+}
+
+.waf-slider .progress-bar {
+  -webkit-transition:none !important;
+  -moz-transition:none !important;
+  -ms-transition:none !important;
+  -o-transition:none !important;
+  transition: none !important;
+  -webkit-animation:none !important;
+  -moz-animation:none !important;
+  -ms-animation:none !important;
+  -o-animation:none !important;
+  animation: none !important;
+}
+.waf-slider .progress-bar.max {
+  float:right !important;
+}
+.waf-slider .progress-bar.none {
+  display:none;
+}
+
+.waf-slider .btn {
+  position: absolute;
+  left: 0;
+  top: -14%;
+  height: 128%;
+  width: 2rem;
+  margin-left:-1rem;
+  padding: 0;
+  outline: none !important;
+}
+
+.waf-slider .btn.circle {
+  border-radius:100% !important;
+}
