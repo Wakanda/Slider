@@ -80,7 +80,7 @@ WAF.define('Slider', ['waf-core/widget', 'Button'], function(widget, WButton) {
          * Start sliding
          */
         _startSliding: function startSliding (e) {
-            if (e.which < 2) {
+            if (e.which < 2 && !this.disabled()) {
                 this._oldValue     = this.value();
                 this._currentValue = this.value();
                 this.fire('slidestart',{ value: this._currentValue });

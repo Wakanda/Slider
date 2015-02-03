@@ -6,40 +6,44 @@
 
     Slider.addEvents({
         name: 'slidestart',
-        description: 'On Start Click'
+        description: 'On Start Slide',
+        category: 'Slider Events'
     },{
         name: 'slide',
-        description: 'On Slide'
+        description: 'On Slide',
+        category: 'Slider Events'
     },{
         name: 'slidechange',
-        description: 'On Change'
+        description: 'On Change',
+        category: 'Slider Events'
     },{
         name: 'slidestop',
-        description: 'On Stop'
+        description: 'On Stop Slide',
+        category: 'Slider Events'
     });
 
     Slider.customizeProperty('value', {
-        title: 'Source',
-        description: 'Define the selected value'
+        title: 'Value',
+        description: 'Static value or datasource value'
     });
     Slider.customizeProperty('shape', {
-        title: 'Handle Shape',
-        description: 'Define the shape of the widget handle'
+        title: 'Handle',
+        description: 'Slider\'s handle shape'
     });
     Slider.customizeProperty('min', {
-        title: 'Minimum Value',
-        description: 'Define the minimum value'
+        title: 'Minimum value',
+        description: 'Minimum value for the Slider'
     });
     Slider.customizeProperty('max', {
-        title: 'Maximum Value',
-        description: 'Define the maximum value'
+        title: 'Maximum value',
+        description: 'Maximum value for the Slider'
     });
     Slider.customizeProperty('step',  {
-        title: 'Step Value',
-        description: 'Define the step value'
+        title: 'Step',
+        description: 'Step value for the Slider'
     });
     Slider.customizeProperty('range',  {
-        description: 'Define where to display the slider bar'
+        description: 'Slider\'s range to display'
     });
 
     // Disable the control on Studio
@@ -66,10 +70,10 @@
     // Set panel menu
     Slider.setPanelStyle({
         'fClass': true,
-        'text': true,
-        'textShadow': true,
+        'text': false,
+        'textShadow': false,
         'dropShadow': true,
-        'innerShadow': true,
+        'innerShadow': false,
         'background': true,
         'border': true,
         'label': true,
