@@ -4,7 +4,7 @@
     "studioName": "Slider",
     "category": "Form Controls",
     "iconPath": "/icons/widget.png",
-    "author": "4D SAS",
+    "author": "Wakanda SAS",
     "contributors": [
     	"Vincent Thibault",
         "Stéphane Puybareau",
@@ -12,7 +12,7 @@
         "Sébastien Lombard"
     ],
     "version": "1.0.0",
-    "copyright": "(c) 2014 4D SAS",
+    "copyright": "(c) 2015 Wakanda SAS",
     "repository": {
         "type": "git",
         "url": "https://github.com/Wakanda/Slider.git"
