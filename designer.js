@@ -14,7 +14,7 @@
         category: 'Slider Events'
     },{
         name: 'slidechange',
-        description: 'On Change',
+        description: 'On Slide Change',
         category: 'Slider Events'
     },{
         name: 'slidestop',
