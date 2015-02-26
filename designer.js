@@ -74,8 +74,8 @@
         'textShadow': false,
         'dropShadow': true,
         'innerShadow': false,
-        'background': true,
-        'border': true,
+        'background': false,
+        'border': false,
         'label': true,
         'sizePosition': true
     });

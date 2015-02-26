@@ -11,7 +11,7 @@ WAF.define('Slider', ['waf-core/widget', 'Button'], function(widget, WButton) {
         range: widget.property({
             type:         'enum',
             bindable:     false,
-            defaultValue: 'none',
+            defaultValue: 'min',
             values: {
                 none: 'None',
                 min:  'Min',
